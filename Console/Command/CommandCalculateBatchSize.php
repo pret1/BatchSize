@@ -33,7 +33,7 @@ class CommandCalculateBatchSize extends Command
         $this->setDescription('Calculate recommended BatchSize for index.');
         $this->addOption(
             self::INSURANCE_COEFFICIENT,
-            "co",
+            "c",
             InputOption::VALUE_REQUIRED,
             'Insurance coefficient for batch size',
             '0.95'
